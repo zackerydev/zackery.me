@@ -11,14 +11,13 @@ import config from "../../data/SiteConfig";
 
 class Index extends React.Component {
   render() {
-    const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <div className="index-container">
         <Helmet title={config.siteTitle} />
-        <SEO postEdges={postEdges} />
+        <SEO  />
         <Jumbotron>
           <h1> Zackery Griesinger </h1>
-          <p> Software developer and technology enthusiast with an emphasis in React, Node and JavaScript </p>
+          <p> Software developer and technology enthusiast with an emphasis in React, Node, and JavaScript </p>
           <img className="avatar" src={avatar} alt="avatar" />
           <Button style={{width: "400px", marginTop: "25px"}} className="resume" outline> <a href="https://docs.google.com/document/d/1D5TlYWNCt-75Jz28ap16toxk36iqw00PRaBQ-hV9CLA/export?format=pdf"> Resume </a> </Button>
         </Jumbotron>
@@ -57,7 +56,7 @@ class Index extends React.Component {
         </div>
         <div className="projects">
           <Jumbotron>
-            <h2 className="section-header"> Things I've Made </h2>
+            <h2 className="section-header"> Things I've Built </h2>
             <Card className="project-card">
               <CardBody>
                 <CardTitle>Griesers.com</CardTitle>
@@ -181,27 +180,27 @@ class Index extends React.Component {
 export default Index;
 
 /* eslint no-undef: "off"*/
-export const pageQuery = graphql`
-  query IndexQuery {
-    allMarkdownRemark(
-      limit: 2000
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      edges {
-        node {
-          fields {
-            slug
-          }
-          excerpt
-          timeToRead
-          frontmatter {
-            title
-            tags
-            cover
-            date
-          }
-        }
-      }
-    }
-  }
-`;
+// export const pageQuery = graphql`
+//   query IndexQuery {
+//     allMarkdownRemark(
+//       limit: 2000
+//       sort: { fields: [frontmatter___date], order: DESC }
+//     ) {
+//       edges {
+//         node {
+//           fields {
+//             slug
+//           }
+//           excerpt
+//           timeToRead
+//           frontmatter {
+//             title
+//             tags
+//             cover
+//             date
+//           }
+//         }
+//       }
+//     }
+//   }
+// `;
