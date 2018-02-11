@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+a {
+    color: white;
+}
+
+.navbar {
+    padding: 40px;
+    background: white;
+}
+
+.img {
+    max-height: 100%;
+    margin-bottom: 0 !important;
+}
+
+.navbar li {
+    margin-bottom: 0 !important;
+}
+
+body {
+    margin: 0 auto;
+}
+

@@ -1,0 +1,269 @@
+.jumbotron {
+    color: white;
+    text-align: center;
+    background: navy;
+}
+
+.avatar {
+    border-radius: 50%;
+    border: 10px solid white;
+}
+
+.c1 {
+    grid-column: 1 / 2;
+}
+.c2 {
+    grid-column: 2 / 3;
+}
+.c3 {
+    grid-column: 3;
+}
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    grid-template-rows: auto;
+}
+.technologies {
+    margin: auto;
+    width: 80%;
+    padding-bottom: 20px;
+}
+
+.btn-group {
+    width: 100%;
+}
+.card-footer {
+    padding: 0;
+}
+
+.source {
+    color: navy;
+    padding: 2px;
+    padding-right: 20px;
+    font-size: 30px !important;
+}
+
+.btn {
+    width: 100%;
+    background-color: white;
+    color: black;
+    border-color: navy;
+    font-weight: bold;
+}
+
+.float-icon {
+    float: left;
+    position: relative;
+    padding: 20px;
+    width: 200px;
+}
+
+.icon-container {
+}
+
+.icons-inner {
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn:hover {
+    color: white;
+    background-color: navy;
+}
+
+.btn:hover .source {
+    color: white;
+}
+
+.html5 {
+    color: #E34C26;
+}
+.css3 {
+    color: #4D00F1;
+}
+.projects i {
+    font-size: 50px;
+    padding: 5px;
+}
+
+/* .firebase {
+    vertical-align: bottom;
+    height: 100%;
+    width: auto;
+    padding: 0;
+    margin: 0;
+} */
+
+.firebase {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 0;
+}
+
+svg {
+    width: 100px;
+    margin: 25px;
+}
+
+.react {
+    color: #00d8ff !important;
+    font-size: 100px;
+}
+
+.python {
+    color: #ffde57 !important;
+    font-size: 100px;
+}
+
+.section-header {
+    text-align: center;
+}
+.node {
+    font-size: 100px;
+    color: #336633;
+}
+
+.card:hover {
+    background-color: navy;
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+}
+.card {
+    color: black;
+    text-align: center;
+    height: 100%;
+    padding: 5px
+}
+
+.icon-grid-4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+}
+
+.i1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+}
+
+.i2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+}
+
+.i3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+}
+
+.i4 {
+    grid-column-start: 4;
+    grid-row-start: 1;
+}
+
+.project-card {
+    margin-bottom: 25px;
+}
+
+.project-card:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.card-footer:hover {
+    color: navy;
+}
+
+.btn:hover a{
+    color: white !important;
+}
+a {
+    color: navy;
+}
+
+.resume {
+    margin: 0 auto;
+    display: block;
+    border-color: white;
+    background-color: white; 
+    color: navy;
+    border-width: 5px;
+    width: auto;
+}
+
+.resume:hover {
+    border-color: white;
+}
+
+body {
+    font-family: Consolas !important;
+}
+
+.mysql {
+    color: #00758f;
+}
+
+.card-text {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+@media (max-width: 1000px) {
+    .grid {
+        height: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+    }
+
+    .c1 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .c2 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .c3 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .icon-grid-4 {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+
+    .i1 {
+        grid-column: 1 / 2;
+        grid-row: 1;
+    }
+
+    .i2 {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .i3 {
+        grid-column: 1 / 2;
+        grid-row: 2;
+    }
+
+    .i4 {
+        grid-column: 2;
+        grid-row: 2;
+        width: 100%;
+    }
+
+}
