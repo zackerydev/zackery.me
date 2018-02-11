@@ -82,7 +82,7 @@ export default class MainLayout extends React.Component {
 
         {children()}
 
-        <Jumbotron style={{background: "white", color: 'black', height: "20px"}}>
+        <Jumbotron style={{backgroundColor: "white", color: 'black', height: "20px"}}>
           <h6>Copyright © Zackery Griesinger, 2018 </h6>
         </Jumbotron>
       </div>

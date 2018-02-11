@@ -1,7 +1,7 @@
 .jumbotron {
     color: white;
     text-align: center;
-    background: linear-gradient(to right, #141e30, #243b55);
+    background: navy;
 }
 
 .avatar {
@@ -38,7 +38,7 @@
 }
 
 .source {
-    color: #141e30;
+    color: navy;
     padding: 2px;
     padding-right: 20px;
     font-size: 30px !important;
@@ -48,7 +48,7 @@
     width: 100%;
     background-color: white;
     color: black;
-    border-color: #141e30;
+    border-color: navy;
     font-weight: bold;
 }
 
@@ -59,6 +59,8 @@
     width: 200px;
 }
 
+.icon-container {
+}
 
 .icons-inner {
     width: 800px;
@@ -68,7 +70,7 @@
 
 .btn:hover {
     color: white;
-    background-color: #141e30;
+    background-color: navy;
 }
 
 .btn:hover .source {
@@ -124,7 +126,7 @@ svg {
 }
 
 .card:hover {
-    background-color: #141e30;
+    background-color: navy;
     color: white;
 }
 a:hover {
@@ -167,8 +169,7 @@ a:hover {
 }
 
 .project-card {
-    margin: 20px auto;
-    max-width: 800px;
+    margin-bottom: 25px;
 }
 
 .project-card:hover {
@@ -178,14 +179,14 @@ a:hover {
 
 
 .card-footer:hover {
-    color: #141e30;
+    color: navy;
 }
 
 .btn:hover a{
     color: white !important;
 }
 a {
-    color: #141e30;
+    color: navy;
 }
 
 .resume {
@@ -193,7 +194,7 @@ a {
     display: block;
     border-color: white;
     background-color: white; 
-    color: #141e30;
+    color: navy;
     border-width: 5px;
     width: auto;
 }
