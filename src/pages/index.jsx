@@ -180,27 +180,26 @@ class Index extends React.Component {
 export default Index;
 
 /* eslint no-undef: "off"*/
-// export const pageQuery = graphql`
-//   query IndexQuery {
-//     allMarkdownRemark(
-//       limit: 2000
-//       sort: { fields: [frontmatter___date], order: DESC }
-//     ) {
-//       edges {
-//         node {
-//           fields {
-//             slug
-//           }
-//           excerpt
-//           timeToRead
-//           frontmatter {
-//             title
-//             tags
-//             cover
-//             date
-//           }
-//         }
-//       }
-//     }
-//   }
-// `;
+export const pageQuery = graphql`
+  query IndexQuery {
+    allMarkdownRemark(
+      limit: 2000
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          excerpt
+          frontmatter {
+            title
+            tags
+            cover
+            date
+          }
+        }
+      }
+    }
+  }
+`;

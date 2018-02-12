@@ -140,8 +140,6 @@ module.exports = {
                 edges {
                   node {
                     excerpt
-                    html
-                    timeToRead
                     fields { slug }
                     frontmatter {
                       title
