@@ -8,7 +8,7 @@ module.exports = {
   siteDescription: "Portfolio, blog and resume for Zackery Griesinger", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "494604480933335", // FB Application ID for using app insights
-  googleAnalyticsID: "UA-96875884-1", // GA tracking ID.
+  googleAnalyticsID: "UA-113992018-1", // GA tracking ID.
   postDefaultCategoryID: "Web Development", // Default category for posts.
   userName: "Zackery Griesinger", // Username to display in the author segment.
   userTwitter: "zgriesinger", // Optionally renders "Follow Me" in the UserInfo segment.
