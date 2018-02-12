@@ -39,7 +39,7 @@ export default class HTML extends React.Component {
           {css}
           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" /> 
           <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" />
-          
+          <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" />
         </head>
         <body>
           <div

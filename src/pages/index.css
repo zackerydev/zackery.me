@@ -204,7 +204,7 @@ a {
 }
 
 body {
-    font-family: Consolas !important;
+    font-family: 'Inconsolata' monospace !important;
 }
 
 .mysql {
