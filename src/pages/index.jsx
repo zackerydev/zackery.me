@@ -19,7 +19,7 @@ class Index extends React.Component {
           <h1> Zackery Griesinger </h1>
           <p> Software developer and technology enthusiast with an emphasis in React, Node, and JavaScript </p>
           <img className="avatar" src={avatar} alt="avatar" />
-          <Button style={{width: "400px", marginTop: "25px"}} className="resume" outline> <a href="https://docs.google.com/document/d/1D5TlYWNCt-75Jz28ap16toxk36iqw00PRaBQ-hV9CLA/export?format=pdf"> Resume </a> </Button>
+          <a style={{width: "400px", marginTop: "25px"}} className="resume btn" outline href="https://docs.google.com/document/d/1D5TlYWNCt-75Jz28ap16toxk36iqw00PRaBQ-hV9CLA/export?format=pdf"> Résumé </a>
         </Jumbotron>
         <div className="technologies">
           <h2 className="section-header"> Technologies I Love </h2>
@@ -90,17 +90,13 @@ class Index extends React.Component {
               </CardBody>
               <CardFooter> 
                 <ButtonGroup> 
-                  <Button> 
-                    <a href="https://griesers.com">
-                      <i className="fas fa-link source" /> 
-                        Link 
-                    </a>
-                  </Button> 
-                  <Button>
-                    <a href="https://github.com/zgriesinger/griesers">
-                      <i className="fas fa-code source" /> Source 
-                    </a>
-                  </Button> 
+                  <a href="https://griesers.com" className="btn">
+                    <i className="fas fa-link source" /> 
+                    Link 
+                  </a>
+                  <a href="https://github.com/zgriesinger/griesers" className="btn">
+                    <i className="fas fa-code source" /> Source 
+                  </a>
                 </ButtonGroup> 
               </CardFooter>
             </Card>
@@ -137,11 +133,9 @@ class Index extends React.Component {
               </CardBody>
               <CardFooter> 
                 <ButtonGroup> 
-                  <Button>
-                    <a href="https://github.com/zgriesinger/yafdb">
-                      <i className="fas fa-code source" /> Source 
-                    </a>
-                  </Button> 
+                  <a href="https://github.com/zgriesinger/yafdb" className="btn">
+                    <i className="fas fa-code source" /> Source 
+                  </a>
                 </ButtonGroup> 
               </CardFooter>
             </Card>
@@ -161,11 +155,9 @@ class Index extends React.Component {
               </CardBody>
               <CardFooter> 
                 <ButtonGroup> 
-                  <Button>
-                    <a href="https://github.com/zgriesinger/pylist">
-                      <i className="fas fa-code source" /> Source 
-                    </a>
-                  </Button> 
+                  <a href="https://github.com/zgriesinger/pylist" className="btn">
+                    <i className="fas fa-code source" /> Source 
+                  </a>
                 </ButtonGroup> 
               </CardFooter>
             </Card>
