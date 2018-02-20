@@ -1,0 +1,2 @@
+webpackJsonp([0xcc0040e2dd93],{385:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{fields:{slug:"/the-fallen-time"},excerpt:"Autolyci eminus retenta Hoc domum solitos veteremque nostrum Lorem markdownum huc suo ara, dubites celeri mihi bicolor. Secuti non? Suo opus…",frontmatter:{title:"The Fallen Time",tags:["test","something","tagging"],cover:"https://unsplash.it/400/300/?random?TheFallenTime",date:"01/02/2017"}}}]}},pathContext:{tag:"something"}}}});
+//# sourceMappingURL=path---tags-something-e6c6e1763b91d4292bd4.js.map

@@ -1,0 +1,2 @@
+webpackJsonp([0xa76cab327e0f],{392:function(t,e){t.exports={data:{markdownRemark:{excerpt:"Eram mora tuas in inter ferens caterva Ait oculos Lorem markdownum. Dedit caput, saxa lenis adhibere negarunt substiterat et ab\ntestes…",frontmatter:{title:"The Fairy's Witches",cover:"https://unsplash.it/1152/300/?random?FaityWitch",date:"02/04/2017",category:"something",tags:null},fields:{slug:"/the-fairys-witches"}}},pathContext:{slug:"/the-fairys-witches"}}}});
+//# sourceMappingURL=path---the-fairys-witches-3bf64eba0010128708f7.js.map

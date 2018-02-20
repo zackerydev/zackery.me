@@ -1,0 +1,2 @@
+webpackJsonp([0x9fa24562b7fa],{364:function(e,a){e.exports={data:{markdownRemark:{excerpt:"Ab dicemur cura Mane oscula anxia Lorem markdownum alius,  non voluntas supremaque : canes ager cingere quis;\nrerum? Nunc nec ferunt verbis…",frontmatter:{title:"Angels of Mist",cover:"https://unsplash.it/400/300/?random?AngelsofMist",date:"01/03/2017",category:"test3",tags:["cheese","other"]},fields:{slug:"/angels-of-mist"}}},pathContext:{slug:"/angels-of-mist"}}}});
+//# sourceMappingURL=path---angels-of-mist-76bbd5881d85d3842ba8.js.map
